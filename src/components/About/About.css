@@ -1,0 +1,182 @@
+.about-div {
+  display: grid;
+  grid-template-rows: 110px auto auto;
+  row-gap: 20px;
+}
+
+.about-me-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+.about-me-cards,
+.art-card {
+  padding: 0px 100px 0px 110px;
+}
+.left-card {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+}
+.myself-card,
+.goal-card,
+.right-card,
+.art-card {
+  display: grid;
+  grid-template-rows: 40px auto;
+  row-gap: 10px;
+  padding: 50px;
+  border: 2px solid #7a001d;
+  box-shadow: 0px 0px 8px #e58cae;
+  border-radius: 50px;
+}
+.art-card {
+  padding: 30px 50px;
+}
+.hi-img,
+.goal-img {
+  transition: animation 0.25s;
+}
+.myself-card:hover .hi-img {
+  animation: waveHand 1.5s infinite ease-in-out;
+  transform-origin: bottom center;
+}
+@keyframes waveHand {
+  0% {
+    transform: rotate(0deg);
+  }
+  15% {
+    transform: rotate(14deg);
+  }
+  30% {
+    transform: rotate(-8deg);
+  }
+  45% {
+    transform: rotate(14deg);
+  }
+  60% {
+    transform: rotate(-4deg);
+  }
+  75% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.goal-card:hover .goal-img {
+  animation: fullRotate 1.9s infinite linear;
+  transform-origin: center;
+}
+@keyframes fullRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.light-off-img {
+  width: 38px;
+  height: 38px;
+  background-image: url("/public/images/light-off\ icon.svg");
+  transition: background-image 0.15s;
+}
+.right-card:hover .light-off-img {
+  background-image: url("/public/images/light-on\ icon.svg");
+}
+.skill-name {
+  display: grid;
+  grid-template-rows: 70px auto;
+  justify-content: center;
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+.skill-name p {
+  margin-top: 3px;
+}
+.skills-icon {
+  display: grid;
+  grid-template-columns: repeat(7, 70px);
+  row-gap: 40px;
+  column-gap: 5px;
+  margin-top: 20px;
+}
+.skill-icon-img {
+  width: 50px;
+  height: 50px;
+}
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-head-txt {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #d10033;
+}
+.card-content {
+  font-size: 18px;
+  font-family: "Ancizar Sans", sans-serif;
+}
+.art-card {
+  margin-left: 110px;
+  margin-right: 100px;
+}
+
+/* Mobile- Small */
+@media (max-width: 320px) {
+  .about-div {
+    grid-template-rows: 80px auto auto;
+    width: 130ch;
+  }
+
+  .about-me-cards {
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 0% 17%;
+  }
+  .left-card {
+    display: grid;
+    grid-template-rows: none;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+  }
+
+  .myself-card,
+  .goal-card,
+  .right-card,
+  .art-card {
+    justify-content: center;
+    row-gap: 5px;
+    border-radius: 30px;
+  }
+  .about-div .art-card {
+    padding: 30px 50px;
+    margin: 0px 17%;
+  }
+  .skill-name {
+    grid-template-rows: 50px auto;
+    font-size: 8px;
+  }
+  .skills-icon {
+    row-gap: 20px;
+    column-gap: 10px;
+    margin-top: 10px;
+  }
+  .skill-icon-img {
+    width: 27px;
+    height: 27px;
+  }
+  .card-head-txt {
+    font-size: 18px;
+  }
+  .card-content {
+    font-size: 14px;
+  }
+}

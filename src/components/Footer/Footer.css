@@ -1,0 +1,136 @@
+/* Footer */
+footer {
+  height: 50vh;
+  display: grid;
+  grid-template-rows: auto auto;
+  padding-top: 70px;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-items: center;
+}
+
+.getintouch-txt-div,
+.contact-head {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: bold;
+  color: #7a001d;
+  font-size: 50px;
+}
+.contact-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.contact-head {
+  font-size: 20px;
+}
+.contact-list-div div {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-family: "Ancizar Sans", sans-serif;
+  font-weight: thin;
+  color: #d10033;
+}
+.contact-icon {
+  width: 25px;
+}
+.social-media-icon-div {
+  padding-top: 10px;
+}
+.social-media-icon-div img {
+  width: 35px;
+}
+.social-media-icon-div a {
+  position: relative;
+}
+.social-media-icon-div .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s ease;
+  position: absolute;
+  text-wrap: nowrap;
+  bottom: -50px;
+  left: -30px;
+  font-size: 12px;
+  padding: 5px;
+  border: 2px solid #da144661;
+  border-radius: 5px;
+  color: #da1446d3;
+  font-family: "Ancizar Sans", sans-serif;
+  z-index: 1;
+  pointer-events: none;
+}
+.social-media-icon-div a:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+.resume-div a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  font-family: "Julius Sans One", sans-serif;
+  margin-bottom: 20px;
+  border: 2px solid #7a001c67;
+  background-color: white;
+  color: #d10033;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 30px;
+  border-radius: 10px;
+  /* min-width: 120px; */
+  transition: border 0.15s, box-shadow 0.15s;
+}
+.resume-div a:hover {
+  border: 2px solid #7a001d;
+  box-shadow: 0px 0px 8px #e58cae;
+}
+
+/* Mobile- Small */
+@media (max-width: 320px) {
+  footer {
+    width: 130ch;
+    padding-top: 40px;
+  }
+  .getintouch-txt-div {
+    font-size: 30px;
+  }
+  .contact-div {
+    row-gap: 10px;
+  }
+  .contact-head {
+    font-size: 15px;
+  }
+  .contact-list-div div {
+    column-gap: 8px;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  .contact-icon {
+    width: 15px;
+  }
+  .social-media-icon-div {
+    padding-top: 5px;
+  }
+  .social-media-icon-div img {
+    width: 20px;
+  }
+  .social-media-icon-div .tooltip {
+    bottom: -35px;
+    left: -15px;
+    font-size: 8px;
+    padding: 3px;
+  }
+  .resume-div a {
+    column-gap: 5px;
+    margin-bottom: 10px;
+    font-size: 8px;
+    padding: 5px 15px;
+    border-radius: 6px;
+  }
+}

@@ -1,0 +1,142 @@
+.main-content {
+  background: linear-gradient(to bottom, #6b001a, #d10033);
+  color: white;
+  min-height: 100vh;
+  padding: 20px 60px 10px 60px;
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  border: 2px solid #d94d6f;
+  border-radius: 60px;
+  box-shadow: 0px 0px 4px rgba(227, 133, 155, 0.9);
+}
+.portfolio-div p {
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 500;
+  font-size: 130px;
+  margin-left: 80px;
+}
+.img-name-div {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 20px;
+  justify-content: center;
+}
+.circle-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.name p {
+  font-family: "Ancizar Sans", sans-serif;
+  text-align: center;
+}
+.name .jothi-name {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 50px;
+  text-shadow: 0px 0px 6px rgba(227, 133, 155, 0.9),
+    0px 0px 6px rgba(227, 133, 155, 0.9);
+  margin-bottom: 10px;
+}
+.name .des-txt {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.name .quote-txt {
+  font-size: 14px;
+}
+
+.scroll-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 00px;
+}
+.scroll-d-txt {
+  text-align: center;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 14px;
+}
+.move-arrow {
+  display: inline-block;
+  animation: bounce 1.5s infinite;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-2px);
+  }
+  50% {
+    transform: translateY(2.5px);
+  }
+}
+
+/* Mobile- Small */
+@media (max-width: 320px) {
+  .main-content {
+    /* width: 100%; */
+    width: 130ch;
+    height: 230ch;
+    padding: 10px 40px;
+    grid-template-rows: 120px auto 50px;
+  }
+  .content {
+    grid-template-columns: none;
+    grid-template-rows: 500px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfolio-div p {
+    font-size: 150px;
+    text-align: center;
+  }
+  .img-name-div {
+    row-gap: 60px;
+  }
+  .circle-img {
+    width: 550px;
+    height: 550px;
+  }
+  .name .jothi-name {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .name .des-txt {
+    font-size: 16px;
+  }
+  .name .quote-txt {
+    font-size: 12px;
+  }
+
+  .scroll-arrow {
+    column-gap: 8px;
+    margin-top: 10px;
+  }
+  .scroll-d-txt {
+    font-size: 12px;
+  }
+}
+/* Mobile- Medium */
+@media (max-width: 375px) {
+}
+/* Mobile- Large */
+@media (max-width: 425px) {
+}
+/* Tablet */
+@media (max-width: 768px) {
+}
+/* Laptop */
+@media (max-width: 1024px) {
+}
+/* Laptop- Large */
+@media (max-width: 1440px) {
+}
+/* 4K */
+@media (max-width: 2560px) {
+}

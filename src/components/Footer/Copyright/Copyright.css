@@ -1,0 +1,24 @@
+.copyright-div {
+  display: flex;
+  column-gap: 5px;
+  align-self: center;
+  justify-self: center;
+  color: #6b001b4c;
+  font-family: "Ancizar Sans", sans-serif;
+}
+.cpr-img {
+  width: 17px;
+}
+
+/* Mobile- Small */
+@media (max-width: 320px) {
+  .copyright-div {
+    column-gap: 2px;
+  }
+  .copyright-div p {
+    font-size: 8px;
+  }
+  .cpr-img {
+    width: 8px;
+  }
+}
