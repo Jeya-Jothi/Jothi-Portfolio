@@ -154,3 +154,113 @@
     margin-bottom: 10px;
   }
 }
+
+/* Mobile- Medium */
+@media (max-width: 375px) {
+  .projects-div {
+    padding: 6% 20%;
+    margin-top: 12%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 110ch;
+  }
+  .project-card-div {
+    column-gap: 0px;
+    height: 60vh;
+  }
+  .project-img {
+    width: 75%;
+    height: 100%;
+  }
+  /* Reverse the order using grid-item positions */
+  .project-card-div.reverse .project-img-div {
+    grid-column: 2;
+    margin-left: 10%;
+  }
+  .project-card-div.reverse .project-img-div .project-img {
+    width: 85%;
+  }
+  .project-card-content {
+    row-gap: 13px;
+  }
+  .num-txt {
+    font-size: 36px;
+  }
+  .project-name {
+    font-size: 24px;
+  }
+  .project-describe {
+    font-size: 14px;
+  }
+  .live-btn {
+    padding: 6px 12px;
+    border-radius: 10px;
+    column-gap: 5px;
+    font-size: 12px;
+  }
+  .live-img {
+    width: 12px;
+  }
+
+  .view-more-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile- Large */
+@media (max-width: 425px) {
+  .projects-div {
+    padding: 6% 28%;
+    margin-top: 12%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 134ch;
+  }
+  .project-card-div {
+    column-gap: 0px;
+    height: 80vh;
+  }
+  .project-img {
+    width: 80%;
+    height: 100%;
+  }
+  /* Reverse the order using grid-item positions */
+  .project-card-div.reverse .project-img-div {
+    grid-column: 2;
+    margin-left: 10%;
+  }
+  .project-card-div.reverse .project-img-div .project-img {
+    width: 93%;
+  }
+  .project-card-content {
+    row-gap: 15px;
+  }
+  .num-txt {
+    font-size: 40px;
+  }
+  .project-name {
+    font-size: 26px;
+  }
+  .project-describe {
+    font-size: 16px;
+  }
+  .live-btn {
+    padding: 8px 14px;
+    border-radius: 10px;
+    column-gap: 7px;
+    font-size: 14px;
+  }
+  .live-img {
+    width: 14px;
+  }
+
+  .view-more-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
