@@ -11,9 +11,7 @@ function MainContent() {
           <p>FOLIO.</p>
         </div>
         <div className="img-name-div">
-          <div className="circle-img">
-            <img src="" alt="profile-image" />
-          </div>
+          <div className="circle-img"></div>
           <div className="name">
             <p className="jothi-name">Jeya Jothi</p>
             <p className="des-txt">A Creative Web Developer</p>
@@ -26,7 +24,11 @@ function MainContent() {
       <div className="scroll-arrow">
         <p className="scroll-d-txt">Scroll down</p>
         <span className="move-arrow">
-          <img src="images/down arrow.svg" alt="down-arrow" />
+          <img
+            src="images/down arrow.svg"
+            alt="down-arrow"
+            className="down-a-img"
+          />
         </span>
       </div>
     </div>
