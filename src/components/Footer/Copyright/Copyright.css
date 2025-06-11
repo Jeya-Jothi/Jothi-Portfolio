@@ -15,10 +15,36 @@
   .copyright-div {
     column-gap: 2px;
   }
-  .copyright-div p {
-    font-size: 8px;
+  .copyright-div P {
+    font-size: 5px;
   }
   .cpr-img {
-    width: 8px;
+    width: 5px;
+  }
+}
+
+/* Mobile- Medium */
+@media (max-width: 375px) {
+  .copyright-div {
+    column-gap: 2px;
+  }
+  .copyright-div P {
+    font-size: 5px;
+  }
+  .cpr-img {
+    width: 5px;
+  }
+}
+
+/* Mobile- Large */
+@media (max-width: 425px) {
+  .copyright-div {
+    column-gap: 3px;
+  }
+  .copyright-div P {
+    font-size: 7px;
+  }
+  .cpr-img {
+    width: 7px;
   }
 }

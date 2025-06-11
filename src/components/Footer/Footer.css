@@ -91,46 +91,86 @@ footer {
   box-shadow: 0px 0px 8px #e58cae;
 }
 
-/* Mobile- Small */
-@media (max-width: 320px) {
+/* Mobile- Small-320px and Medium-375px and Large-425px*/
+@media (max-width: 425px) {
   footer {
-    width: 130ch;
+    height: 30vh;
     padding-top: 40px;
   }
-  .getintouch-txt-div {
-    font-size: 30px;
+
+  .getintouch-txt-div,
+  .contact-head {
+    font-size: 1.5rem;
   }
   .contact-div {
     row-gap: 10px;
   }
   .contact-head {
-    font-size: 15px;
+    font-size: 0.7rem;
   }
   .contact-list-div div {
-    column-gap: 8px;
-    margin-bottom: 15px;
-    font-size: 12px;
+    column-gap: 5px;
+    margin-bottom: 10px;
+    font-size: 8px;
   }
   .contact-icon {
-    width: 15px;
+    width: 8px;
   }
   .social-media-icon-div {
     padding-top: 5px;
   }
   .social-media-icon-div img {
-    width: 20px;
+    width: 12px;
   }
   .social-media-icon-div .tooltip {
-    bottom: -35px;
-    left: -15px;
-    font-size: 8px;
-    padding: 3px;
+    bottom: -22px;
+    left: -5px;
+    font-size: 5px;
+    padding: 1px;
+    border: 1px solid #da144661;
+    border-radius: 2px;
   }
   .resume-div a {
     column-gap: 5px;
     margin-bottom: 10px;
+    border: 1px solid #7a001c67;
+    font-size: 5px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+
+/* Mobile- Large */
+@media (max-width: 425px) {
+  footer {
+    height: 35vh;
+  }
+
+  .getintouch-txt-div,
+  .contact-head {
+    font-size: 1.8rem;
+  }
+  .contact-head {
+    font-size: 0.8rem;
+  }
+  .contact-list-div div {
+    font-size: 10px;
+  }
+  .contact-icon {
+    width: 10px;
+  }
+  .social-media-icon-div {
+    padding-top: 7px;
+  }
+  .social-media-icon-div img {
+    width: 13px;
+  }
+  .social-media-icon-div .tooltip {
+    bottom: -20px;
+    left: -1px;
+    font-size: 6px;
+  }
+  .resume-div a {
     font-size: 8px;
-    padding: 5px 15px;
-    border-radius: 6px;
   }
 }
