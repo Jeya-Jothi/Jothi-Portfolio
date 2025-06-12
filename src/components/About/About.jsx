@@ -63,7 +63,7 @@ function About() {
         </div>
       </div>
       <div className="art-card">
-        <p className="card-head-txt">My Artistic Side</p>
+        <p className="card-head-txt art-card-head">My Artistic Side</p>
         <p className="card-content">
           Apart from coding, I'm an artist at heart. I love drawing, painting,
           and creating abstract art like Zentangle. I believe creativity
