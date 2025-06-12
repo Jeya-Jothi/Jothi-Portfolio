@@ -77,99 +77,40 @@
   }
 }
 
-/* Mobile- Small */
-@media (max-width: 320px) {
-  .main-content {
-    max-width: 100vw;
-    width: 100%;
-    padding: 10px;
-    height: 100vh;
-    display: grid;
-    grid-template-rows: auto;
-    overflow-x: hidden;
-  }
-
-  .content {
-    display: grid;
-    grid-template-columns: none;
-    grid-template-rows: auto;
-    row-gap: 25px;
-    justify-content: center;
-    align-content: center;
-    border-radius: 60px;
-    padding: 10px 0px;
-  }
-  .portfolio-div p {
-    font-size: 3rem;
-    margin-left: 0;
-    text-align: center;
-  }
-  .circle-img {
-    width: 50vw;
-    height: 50vw;
-    /* background-image: url(""); */
-  }
-  .name .jothi-name {
-    font-size: 150%;
-    margin-bottom: 5px;
-  }
-  .name .des-txt {
-    font-size: 70%;
-    margin-bottom: 5px;
-  }
-  .name .quote-txt {
-    font-size: 40%;
-  }
-
-  .img-name-div {
-    justify-items: center;
-  }
-  .scroll-arrow {
-    column-gap: 5px;
-    margin-top: 5px;
-  }
-  .scroll-d-txt {
-    font-size: 6px;
-  }
-  .down-a-img {
-    width: 10px;
-    height: 10px;
-  }
-  @keyframes bounce {
-    0%,
-    100% {
-      transform: translateY(-1px);
-    }
-    50% {
-      transform: translateY(1px);
-    }
-  }
+/* Tablet */
+@media (max-width: 768px) {
+}
+/* Laptop */
+@media (max-width: 1024px) {
+}
+/* Laptop- Large */
+@media (max-width: 1440px) {
+}
+/* 4K */
+@media (max-width: 2560px) {
 }
 
 /* Mobile- Medium-375px and large-425px */
 @media (max-width: 425px) {
   .main-content {
-    /* max-width: 100vw;
-    width: 100%; */
-    padding: 10px 20px;
+    padding: 0px 15px;
     height: 100vh;
-    display: grid;
-    grid-template-rows: auto;
-    overflow-x: hidden;
+    grid-template-rows: 65px auto 30px;
   }
 
   .content {
     grid-template-columns: none;
     grid-template-rows: auto;
-    row-gap: 25px;
+    row-gap: 13%;
     justify-content: center;
     align-content: center;
     border-radius: 60px;
     padding: 10px 0px;
   }
   .portfolio-div p {
-    font-size: 3.2rem;
+    font-size: 3.6rem;
     margin-left: 0;
+    font-weight: bold;
     text-align: center;
   }
   .circle-img {
@@ -178,22 +119,22 @@
     /* background-image: url(""); */
   }
   .name .jothi-name {
-    font-size: 155%;
-    margin-bottom: 5px;
+    font-size: 165%;
+    margin-bottom: 7px;
   }
   .name .des-txt {
-    font-size: 75%;
+    font-size: 78%;
     margin-bottom: 5px;
   }
   .name .quote-txt {
-    font-size: 45%;
+    font-size: 48%;
   }
 
   .img-name-div {
     justify-items: center;
   }
   .scroll-arrow {
-    column-gap: 6px;
+    column-gap: 4px;
     margin-top: 6px;
   }
   .scroll-d-txt {
@@ -213,43 +154,99 @@
     }
   }
 }
-
 /* Mobile- Large */
 @media (max-width: 425px) {
   .main-content {
-    padding: 12px 22px;
+    padding: 0px 17px;
+    height: 100vh;
+    grid-template-rows: 65px auto 30px;
   }
 
   .content {
-    row-gap: 28px;
-    padding: 12px 0px;
+    row-gap: 10%;
+    padding: 14px 0px;
   }
   .portfolio-div p {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
   }
   .circle-img {
-    width: 45vw;
-    height: 45vw;
+    width: 50vw;
+    height: 50vw;
   }
   .name .jothi-name {
-    font-size: 160%;
+    font-size: 165%;
   }
   .name .des-txt {
-    font-size: 77%;
+    font-size: 78%;
   }
   .name .quote-txt {
-    font-size: 47%;
+    font-size: 49%;
   }
 }
-/* Tablet */
-@media (max-width: 768px) {
-}
-/* Laptop */
-@media (max-width: 1024px) {
-}
-/* Laptop- Large */
-@media (max-width: 1440px) {
-}
-/* 4K */
-@media (max-width: 2560px) {
+/* Mobile- Small */
+@media (max-width: 320px) {
+  .main-content {
+    padding: 0px 13px;
+    height: 100vh;
+    grid-template-rows: 65px auto 30px;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: auto;
+    row-gap: 10%;
+    justify-content: center;
+    align-content: center;
+    border-radius: 60px;
+    padding: 0px;
+  }
+  .portfolio-div p {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-left: 0;
+    text-align: center;
+  }
+  .circle-img {
+    width: 50vw;
+    height: 50vw;
+    /* background-image: url(""); */
+  }
+  .name .jothi-name {
+    font-size: 170%;
+    text-shadow: 0px 0px 3px rgba(227, 133, 155, 0.9),
+      0px 0px 3px rgba(227, 133, 155, 0.9);
+    margin-bottom: 5px;
+  }
+  .name .des-txt {
+    font-size: 80%;
+    margin-bottom: 5px;
+  }
+  .name .quote-txt {
+    font-size: 54%;
+  }
+
+  .img-name-div {
+    justify-items: center;
+  }
+  .scroll-arrow {
+    column-gap: 4px;
+    margin-top: 10px;
+  }
+  .scroll-d-txt {
+    font-size: 7px;
+  }
+  .down-a-img {
+    width: 10px;
+    height: 10px;
+  }
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(-1px);
+    }
+    50% {
+      transform: translateY(1px);
+    }
+  }
 }

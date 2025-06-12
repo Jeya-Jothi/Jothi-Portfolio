@@ -44,14 +44,16 @@ function Project() {
             </div>
           );
         })}
-        {projectData.length > 3 && (
-          <button
-            className="view-more-btn"
-            onClick={() => setShowAll(!showAll)}
-          >
-            {showAll ? "View Less" : "View More Projects"}
-          </button>
-        )}
+        <div className="v-m-btn-div">
+          {projectData.length > 3 && (
+            <button
+              className="view-more-btn"
+              onClick={() => setShowAll(!showAll)}
+            >
+              {showAll ? "View Less" : "View More Projects"}
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );

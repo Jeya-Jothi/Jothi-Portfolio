@@ -70,7 +70,7 @@ function Footer() {
             <img
               src="images/download icon.svg"
               alt="download icon"
-              className="contact-icon"
+              className="download-icon"
             />
             Resume
           </a>
@@ -83,7 +83,7 @@ function Footer() {
             <img
               src="images/art icon.svg"
               alt="art icon"
-              className="contact-icon"
+              className="art-icon"
             />
             Art Gallery
           </a>

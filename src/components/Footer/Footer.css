@@ -91,15 +91,66 @@ footer {
   box-shadow: 0px 0px 8px #e58cae;
 }
 
-/* Mobile- Small-320px and Medium-375px and Large-425px*/
+/* Mobile- Large */
 @media (max-width: 425px) {
+  footer {
+    height: 38vh;
+    padding-top: 45px;
+  }
+
+  .getintouch-txt-div {
+    font-size: 1.8rem;
+  }
+  .contact-div {
+    row-gap: 12px;
+  }
+  .contact-head {
+    font-size: 0.9rem;
+  }
+  .contact-list-div div {
+    column-gap: 5px;
+    margin-bottom: 10px;
+    font-size: 11px;
+  }
+  .contact-icon {
+    width: 11px;
+  }
+  .social-media-icon-div {
+    padding-top: 5px;
+  }
+  .social-media-icon-div img {
+    width: 20px;
+  }
+  .social-media-icon-div .tooltip {
+    bottom: -26px;
+    left: -2px;
+    font-size: 10px;
+    padding: 1px;
+    border: 1px solid #da144661;
+    border-radius: 2px;
+  }
+  .download-icon,
+  .art-icon {
+    width: 15px;
+  }
+  .resume-div a {
+    column-gap: 7px;
+    margin-bottom: 14px;
+    border: 1px solid #7a001c67;
+    font-size: 12px;
+    padding: 6px;
+    border-radius: 6px;
+  }
+}
+
+/* Mobile- Small- 320px and Medium- 375px*/
+@media (max-width: 375px) {
   footer {
     height: 30vh;
     padding-top: 40px;
   }
 
-  .getintouch-txt-div,
-  .contact-head {
+  .getintouch-txt-div {
     font-size: 1.5rem;
   }
   .contact-div {
@@ -111,66 +162,35 @@ footer {
   .contact-list-div div {
     column-gap: 5px;
     margin-bottom: 10px;
-    font-size: 8px;
-  }
-  .contact-icon {
-    width: 8px;
-  }
-  .social-media-icon-div {
-    padding-top: 5px;
-  }
-  .social-media-icon-div img {
-    width: 12px;
-  }
-  .social-media-icon-div .tooltip {
-    bottom: -22px;
-    left: -5px;
-    font-size: 5px;
-    padding: 1px;
-    border: 1px solid #da144661;
-    border-radius: 2px;
-  }
-  .resume-div a {
-    column-gap: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #7a001c67;
-    font-size: 5px;
-    padding: 5px;
-    border-radius: 5px;
-  }
-}
-
-/* Mobile- Large */
-@media (max-width: 425px) {
-  footer {
-    height: 35vh;
-  }
-
-  .getintouch-txt-div,
-  .contact-head {
-    font-size: 1.8rem;
-  }
-  .contact-head {
-    font-size: 0.8rem;
-  }
-  .contact-list-div div {
     font-size: 10px;
   }
   .contact-icon {
     width: 10px;
   }
   .social-media-icon-div {
-    padding-top: 7px;
+    padding-top: 5px;
   }
   .social-media-icon-div img {
-    width: 13px;
+    width: 16px;
   }
   .social-media-icon-div .tooltip {
     bottom: -20px;
-    left: -1px;
-    font-size: 6px;
+    left: -2px;
+    font-size: 5px;
+    padding: 1px;
+    border: 1px solid #da144661;
+    border-radius: 2px;
+  }
+  .download-icon,
+  .art-icon {
+    width: 11px;
   }
   .resume-div a {
-    font-size: 8px;
+    column-gap: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #7a001c67;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
   }
 }

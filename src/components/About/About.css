@@ -128,21 +128,21 @@
   margin-right: 100px;
 }
 
-/* Mobile- Small */
-@media (max-width: 320px) {
+/* Mobile Large */
+@media (max-width: 425px) {
   .about-div {
-    grid-template-rows: auto auto auto;
-    row-gap: 15px;
+    grid-template-rows: 55px auto auto;
+    row-gap: 14px;
     padding: 0% 10%;
   }
 
   .about-me-cards {
     grid-template-columns: none;
     grid-template-rows: auto;
-    row-gap: 15px;
+    row-gap: 14px;
   }
   .left-card {
-    row-gap: 15px;
+    row-gap: 14px;
   }
   .about-me-cards,
   .art-card {
@@ -155,39 +155,37 @@
   .art-card {
     grid-template-rows: auto auto;
     row-gap: 5px;
-    padding: 10px;
+    padding: 14px;
     border: 1px solid #7a001d;
     box-shadow: 0px 0px 4px #e58cae;
     border-radius: 20px;
   }
 
   .art-card {
-    padding: 10px;
-    /* max-width: 100%; */
-  }
-  .skill-name {
-    grid-template-rows: auto auto;
-    font-size: 6px;
-    justify-items: center;
+    padding: 14px;
   }
 
   .skills-icon {
     grid-template-columns: repeat(5, auto);
-    row-gap: 20px;
+    row-gap: 15px;
     column-gap: 5px;
     margin-top: 0px;
   }
   .skill-icon-img {
-    width: 15px;
-    height: 15px;
+    width: 23px;
+    height: 23px;
+  }
+  .skill-name {
+    grid-template-rows: auto auto;
+    font-size: 9px;
+    justify-items: center;
   }
   .card-head-txt {
-    font-size: 10px;
+    font-size: 16px;
   }
   .card-content {
-    font-size: 10px;
+    font-size: 14px;
     text-wrap: wrap;
-    /* width: 70%; */
   }
   .art-card {
     margin-left: 0px;
@@ -195,32 +193,32 @@
   }
   .hi-img,
   .goal-img {
-    width: 15px;
+    width: 23px;
   }
   .light-off-img {
-    height: 15px;
+    height: 23px;
     background-image: none;
   }
   .right-card:hover .light-off-img {
     background-image: none;
   }
 }
-
-/* Mobile- Medium-375px and Large-425px */
-@media (max-width: 425px) {
+/* Mobile- Medium */
+@media (max-width: 375px) {
   .about-div {
-    grid-template-rows: auto auto auto;
-    row-gap: 15px;
-    padding: 0% 15%;
+    grid-template-rows: 55px auto auto;
+    row-gap: 14px;
+    padding: 0% 9%;
+    height: 100vh;
   }
 
   .about-me-cards {
     grid-template-columns: none;
     grid-template-rows: auto;
-    row-gap: 15px;
+    row-gap: 14px;
   }
   .left-card {
-    row-gap: 15px;
+    row-gap: 14px;
   }
   .about-me-cards,
   .art-card {
@@ -241,12 +239,82 @@
 
   .art-card {
     padding: 10px;
-    /* max-width: 100%; */
+  }
+
+  .skills-icon {
+    grid-template-columns: repeat(5, auto);
+    row-gap: 15px;
+    column-gap: 5px;
+    margin-top: 0px;
+  }
+  .skill-icon-img {
+    width: 20px;
+    height: 20px;
   }
   .skill-name {
     grid-template-rows: auto auto;
-    font-size: 6px;
+    font-size: 8px;
     justify-items: center;
+  }
+  .card-head-txt {
+    font-size: 14px;
+  }
+  .card-content {
+    font-size: 12px;
+    text-wrap: wrap;
+  }
+  .art-card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .hi-img,
+  .goal-img {
+    width: 20px;
+  }
+  .light-off-img {
+    height: 20px;
+    background-image: none;
+  }
+  .right-card:hover .light-off-img {
+    background-image: none;
+  }
+}
+/* Mobile- Small */
+@media (max-width: 320px) {
+  .about-div {
+    grid-template-rows: 50px auto auto;
+    row-gap: 20px;
+    padding: 0% 7%;
+    height: 100vh;
+  }
+
+  .about-me-cards {
+    grid-template-columns: none;
+    grid-template-rows: auto;
+    row-gap: 20px;
+  }
+  .left-card {
+    row-gap: 20px;
+  }
+  .about-me-cards,
+  .art-card {
+    padding: 0px;
+  }
+
+  .myself-card,
+  .goal-card,
+  .right-card,
+  .art-card {
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    padding: 10px;
+    border: 1px solid #7a001d;
+    box-shadow: 0px 0px 4px #e58cae;
+    border-radius: 20px;
+  }
+
+  .art-card {
+    padding: 10px;
   }
 
   .skills-icon {
@@ -256,8 +324,13 @@
     margin-top: 0px;
   }
   .skill-icon-img {
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
+  }
+  .skill-name {
+    grid-template-rows: auto auto;
+    font-size: 8px;
+    justify-items: center;
   }
   .card-head-txt {
     font-size: 12px;
@@ -265,50 +338,10 @@
   .card-content {
     font-size: 10px;
     text-wrap: wrap;
-    /* width: 70%; */
   }
   .art-card {
     margin-left: 0px;
     margin-right: 0px;
-  }
-  .hi-img,
-  .goal-img {
-    width: 15px;
-  }
-  .light-off-img {
-    height: 15px;
-    background-image: none;
-  }
-  .right-card:hover .light-off-img {
-    background-image: none;
-  }
-}
-
-/* Mobile- Large */
-@media (max-width: 425px) {
-  .myself-card,
-  .goal-card,
-  .right-card,
-  .art-card {
-    padding: 15px;
-  }
-
-  .art-card {
-    padding: 15px;
-  }
-
-  .skills-icon {
-    margin-top: 3px;
-  }
-  .skill-icon-img {
-    width: 16px;
-    height: 16px;
-  }
-  .card-head-txt {
-    font-size: 12px;
-  }
-  .card-content {
-    font-size: 10px;
   }
   .hi-img,
   .goal-img {
@@ -316,5 +349,9 @@
   }
   .light-off-img {
     height: 18px;
+    background-image: none;
+  }
+  .right-card:hover .light-off-img {
+    background-image: none;
   }
 }
