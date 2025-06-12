@@ -115,7 +115,8 @@
     border-bottom-right-radius: 40px;
   }
   .project-card-div {
-    height: 80vh;
+    height: 85vh;
+    row-gap: 18px;
     grid-template-columns: auto;
     margin-bottom: 40px;
     row-gap: 10px;
@@ -142,7 +143,7 @@
     row-gap: 8px;
   }
   .project-img {
-    width: 80%;
+    width: 95%;
     height: 100%;
   }
   .num-txt {
@@ -189,7 +190,8 @@
     border-bottom-right-radius: 30px;
   }
   .project-card-div {
-    height: 62vh;
+    height: 65vh;
+    row-gap: 14px;
     grid-template-columns: auto;
     margin-bottom: 40px;
     row-gap: 5px;
@@ -216,7 +218,7 @@
     row-gap: 5px;
   }
   .project-img {
-    width: 75%;
+    width: 90%;
     height: 100%;
   }
   .num-txt {
@@ -264,8 +266,9 @@
   }
   .project-card-div {
     column-gap: 10px;
-    height: 55vh;
+    height: 60vh;
     grid-template-columns: auto;
+    row-gap: 10px;
     margin-bottom: 40px;
   }
   .project-card-div .project-img-div {
@@ -290,7 +293,7 @@
     row-gap: 5px;
   }
   .project-img {
-    width: 70%;
+    width: 90%;
     height: 100%;
   }
   .num-txt {
