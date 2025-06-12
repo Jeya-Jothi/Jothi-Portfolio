@@ -131,7 +131,7 @@
 /* Mobile Large */
 @media (max-width: 425px) {
   .about-div {
-    grid-template-rows: 55px auto auto;
+    grid-template-rows: auto auto auto;
     row-gap: 10px;
     padding: 0% 10%;
   }
@@ -206,7 +206,7 @@
 /* Mobile- Medium */
 @media (max-width: 375px) {
   .about-div {
-    grid-template-rows: 55px auto auto;
+    grid-template-rows: auto auto auto;
     row-gap: 15px;
     padding: 0% 9%;
     height: 100vh;
@@ -282,7 +282,7 @@
 /* Mobile- Small */
 @media (max-width: 320px) {
   .about-div {
-    grid-template-rows: 50px auto auto;
+    grid-template-rows: auto auto auto;
     row-gap: 15px;
     padding: 0% 7%;
     height: 100vh;
