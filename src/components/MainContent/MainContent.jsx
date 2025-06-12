@@ -2,7 +2,7 @@ import "./MainContent.css";
 import Header from "./Header/Header";
 function MainContent() {
   return (
-    <div className="main-content">
+    <div id="home" className="main-content">
       {/* Header */}
       <Header />
       <div className="content">

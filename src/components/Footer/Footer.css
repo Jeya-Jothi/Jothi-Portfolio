@@ -145,8 +145,8 @@ footer {
     border-radius: 6px;
   }
   .resume-div a:hover {
-    border: 1px solid #7a001d;
-    box-shadow: 0px 0px 4px #e58cae;
+    border: 1px solid #7a001ca0;
+    box-shadow: 0px 0px 3px #e58cae;
   }
 }
 
@@ -201,7 +201,7 @@ footer {
     border-radius: 5px;
   }
   .resume-div a:hover {
-    border: 1px solid #7a001d;
-    box-shadow: 0px 0px 4px #e58cae;
+    border: 1px solid #7a001ca0;
+    box-shadow: 0px 0px 3px #e58cae;
   }
 }

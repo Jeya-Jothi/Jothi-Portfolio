@@ -6,7 +6,9 @@ function Header() {
         <img src="images/JJ logo.svg" alt="JJ logo" className="logo-img" />
       </div>
       <div className="navi">
-        <p id="home">Home</p>
+        <a href="#home">
+          <p>Home</p>
+        </a>
         <a href="#about">
           <p>About</p>
         </a>
