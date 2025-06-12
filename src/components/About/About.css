@@ -207,7 +207,7 @@
 @media (max-width: 375px) {
   .about-div {
     grid-template-rows: 55px auto auto;
-    row-gap: 10px;
+    row-gap: 15px;
     padding: 0% 9%;
     height: 100vh;
   }
@@ -215,10 +215,10 @@
   .about-me-cards {
     grid-template-columns: none;
     grid-template-rows: auto;
-    row-gap: 10px;
+    row-gap: 15px;
   }
   .left-card {
-    row-gap: 10px;
+    row-gap: 15px;
   }
   .about-me-cards,
   .art-card {
@@ -243,7 +243,7 @@
 
   .skills-icon {
     grid-template-columns: repeat(5, auto);
-    row-gap: 15px;
+    row-gap: 30px;
     column-gap: 5px;
     margin-top: 0px;
   }
@@ -283,7 +283,7 @@
 @media (max-width: 320px) {
   .about-div {
     grid-template-rows: 50px auto auto;
-    row-gap: 10px;
+    row-gap: 15px;
     padding: 0% 7%;
     height: 100vh;
   }
@@ -291,10 +291,10 @@
   .about-me-cards {
     grid-template-columns: none;
     grid-template-rows: auto;
-    row-gap: 10px;
+    row-gap: 15px;
   }
   .left-card {
-    row-gap: 10px;
+    row-gap: 15px;
   }
   .about-me-cards,
   .art-card {
@@ -319,7 +319,7 @@
 
   .skills-icon {
     grid-template-columns: repeat(5, auto);
-    row-gap: 20px;
+    row-gap: 25px;
     column-gap: 5px;
     margin-top: 0px;
   }

@@ -95,7 +95,7 @@
   .main-content {
     padding: 0px 15px;
     height: 100vh;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 60px auto auto;
   }
 
   .content {
@@ -160,7 +160,7 @@
   .main-content {
     padding: 0px 15px;
     height: 100vh;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 60px auto auto;
   }
 
   .content {
@@ -225,7 +225,7 @@
   .main-content {
     padding: 0px 13px;
     height: 100vh;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 60px auto auto;
   }
 
   .content {
