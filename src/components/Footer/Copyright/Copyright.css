@@ -10,6 +10,19 @@
   width: 17px;
 }
 
+/* Tablet */
+@media (max-width: 768px) {
+  .copyright-div {
+    column-gap: 3px;
+  }
+  .copyright-div P {
+    font-size: 12px;
+  }
+  .cpr-img {
+    width: 12px;
+  }
+}
+
 /* Mobile- Large */
 @media (max-width: 425px) {
   .copyright-div {
