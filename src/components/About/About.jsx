@@ -16,9 +16,10 @@ function About() {
             </div>
             <div>
               <p className="card-content">
-                Hi, I'm Jeya Jothi, a passionate Web Developer. I love turning
-                creative ideas into real-world websites and applications using
-                modern web technologies.
+                Hi, I'm on a journey to become a skilled full stack developer -
+                currently building meaningful digital projects and expanding my
+                skills while seeking opportunities to join a creative and
+                growth-focused team.
               </p>
             </div>
           </div>
@@ -33,9 +34,9 @@ function About() {
             </div>
             <div>
               <p className="card-content">
-                My goal is to keep learning, create meaningful digital
-                experiences, and grow as a full stack developer while working
-                with innovative teams.
+                My goal is to keep learning, build meaningful digital projects,
+                and grow into a skilled full stack developer while looking
+                forward to joining a team that values creativity and clean code.
               </p>
             </div>
           </div>
@@ -47,9 +48,9 @@ function About() {
           </div>
 
           <div className="skills-icon">
-            {skills.map((skill) => {
+            {skills.map((skill, index) => {
               return (
-                <div className="skill-name">
+                <div className="skill-name" key={index}>
                   <img
                     src={`images/${skill.img}`}
                     alt={skill.name}
@@ -65,9 +66,10 @@ function About() {
       <div className="art-card">
         <p className="card-head-txt art-card-head">My Artistic Side</p>
         <p className="card-content">
-          Apart from coding, I'm an artist at heart. I love drawing, painting,
-          and creating abstract art like Zentangle. I believe creativity
-          enhances the way I write code and design websites.
+          Beyond coding, I'm an artist at heart. I enjoy drawing, painting, and
+          exploring abstract styles like Zentangle. I believe that creativity
+          not only fuels my artwork but also helps me think differently when
+          writing code and designing websites.
         </p>
       </div>
     </div>

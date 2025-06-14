@@ -96,6 +96,7 @@
 }
 .skill-name p {
   margin-top: 3px;
+  font-size: 12px;
 }
 .skills-icon {
   display: grid;
@@ -177,6 +178,9 @@
     row-gap: 5px;
     font-size: 11px;
     justify-items: center;
+  }
+  .skill-name p {
+    font-size: 10px;
   }
   .card-head-txt {
     font-size: 20px;
@@ -303,7 +307,7 @@
 
   .skills-icon {
     grid-template-columns: repeat(5, auto);
-    row-gap: 20px;
+    row-gap: 30px;
     column-gap: 5px;
     margin-top: 6px;
   }
@@ -315,6 +319,9 @@
     grid-template-rows: auto auto;
     font-size: 9px;
     justify-items: center;
+  }
+  .skill-name p {
+    font-size: 8px;
   }
   .card-head-txt {
     font-size: 16px;
@@ -374,7 +381,7 @@
 
   .skills-icon {
     grid-template-columns: repeat(5, auto);
-    row-gap: 30px;
+    row-gap: 25px;
     column-gap: 5px;
     margin-top: 5px;
   }
@@ -386,6 +393,9 @@
     grid-template-rows: auto auto;
     font-size: 8px;
     justify-items: center;
+  }
+  .skill-name p {
+    font-size: 8px;
   }
   .card-head-txt {
     font-size: 14px;
@@ -445,7 +455,7 @@
 
   .skills-icon {
     grid-template-columns: repeat(5, auto);
-    row-gap: 30px;
+    row-gap: 20px;
     column-gap: 5px;
     margin-top: 5px;
   }
@@ -457,6 +467,9 @@
     grid-template-rows: auto auto;
     font-size: 8px;
     justify-items: center;
+  }
+  .skill-name p {
+    font-size: 7px;
   }
   .card-head-txt {
     font-size: 12px;
