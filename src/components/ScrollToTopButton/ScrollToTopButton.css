@@ -6,16 +6,10 @@
 .scroll-top-btn {
   position: fixed;
   bottom: 20px;
-  background-color: transparent;
-  color: #7a001c;
-  font-size: 12px;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 50%;
+  width: 25px;
   cursor: pointer;
   display: none;
   z-index: 999;
-  box-shadow: 0 0 6px #63010150;
   transition: opacity 0.3s ease;
 }
 
@@ -28,7 +22,6 @@
 /* Mobile- Medium */
 @media (max-width: 375px) {
   .scroll-top-btn.show {
-    padding: 3px 8px;
     bottom: 15px;
   }
 }

@@ -29,12 +29,12 @@ const ScrollToTopButton = () => {
 
   return (
     <div className="scroll-top-btn-div">
-      <button
+      <img
+        src="images/top arrow.svg"
+        alt="scroll-top"
         className={`scroll-top-btn ${showButton ? "show" : ""}`}
         onClick={scrollToTop}
-      >
-        ⇡
-      </button>
+      />
     </div>
   );
 };
