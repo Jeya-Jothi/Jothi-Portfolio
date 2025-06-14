@@ -2,8 +2,7 @@
 
 Welcome to my personal **portfolio website**, where I showcase my projects, skills, and a little about who I am. Built with love using **React.js**, this site reflects both my technical and artistic side!
 
-🌐 Live Demo
-[Coming soon...]
+🌐 Live site - https://jothi-portfolio-9utu.onrender.com
 
 ## Features
 
