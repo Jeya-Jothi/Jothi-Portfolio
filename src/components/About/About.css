@@ -87,7 +87,8 @@
 .skill-name {
   display: grid;
   grid-template-rows: 70px auto;
-  justify-content: center;
+  justify-items: center;
+  align-items: center;
   text-align: center;
   font-family: "Julius Sans One", sans-serif;
   font-weight: bold;
@@ -126,6 +127,18 @@
 .art-card {
   margin-left: 110px;
   margin-right: 100px;
+}
+
+@media (max-width: 1310px) {
+  .skills-icon {
+    grid-template-columns: repeat(4, auto);
+    row-gap: 0px;
+    column-gap: 5px;
+  }
+  .hi-img,
+  .goal-img {
+    width: 32px;
+  }
 }
 
 /* Laptop */
@@ -169,11 +182,15 @@
     font-size: 20px;
   }
   .card-content {
-    font-size: 18px;
+    font-size: 16px;
   }
   .art-card {
     margin-left: 0px;
     margin-right: 0px;
+  }
+  .hi-img,
+  .goal-img {
+    width: 28px;
   }
 }
 
