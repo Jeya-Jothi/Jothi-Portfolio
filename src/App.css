@@ -16,16 +16,33 @@ a {
 * {
   box-sizing: border-box;
 }
-
+.about-head-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-head p {
+  margin-top: 50px;
+  text-align: center;
+}
 .about-head-div p,
 .projects-head p {
   font-family: "Julius Sans One", sans-serif;
   font-weight: bold;
   color: #7a001d;
   font-size: 50px;
-  margin-top: 50px;
-  /* min-height: 100vh; */
-  text-align: center;
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+  .about-head-div p,
+  .projects-head p {
+    font-size: 2.8rem;
+  }
+  .projects-head p {
+    margin-top: 25px;
+    text-align: center;
+  }
 }
 
 /* Tablet */
@@ -33,7 +50,10 @@ a {
   .about-head-div p,
   .projects-head p {
     font-size: 2.5rem;
+  }
+  .projects-head p {
     margin-top: 25px;
+    text-align: center;
   }
 }
 
@@ -42,7 +62,10 @@ a {
   .about-head-div p,
   .projects-head p {
     font-size: 2rem;
+  }
+  .projects-head p {
     margin-top: 20px;
+    text-align: center;
   }
 }
 
@@ -51,7 +74,10 @@ a {
   .about-head-div p,
   .projects-head p {
     font-size: 2rem;
+  }
+  .projects-head p {
     margin-top: 17px;
+    text-align: center;
   }
 }
 
@@ -60,6 +86,9 @@ a {
   .about-head-div p,
   .projects-head p {
     font-size: 1.8rem;
+  }
+  .projects-head p {
     margin-top: 20px;
+    text-align: center;
   }
 }

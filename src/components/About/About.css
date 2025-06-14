@@ -3,7 +3,6 @@
   grid-template-rows: 110px auto auto;
   row-gap: 20px;
 }
-
 .about-me-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -127,6 +126,55 @@
 .art-card {
   margin-left: 110px;
   margin-right: 100px;
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+  .about-div {
+    padding: 0% 10%;
+  }
+  .about-me-cards {
+    padding: 0px;
+  }
+
+  .myself-card,
+  .goal-card,
+  .right-card,
+  .art-card {
+    grid-template-rows: auto auto;
+    row-gap: 7px;
+    padding: 20px;
+    border-radius: 40px;
+  }
+  .art-card {
+    padding: 20px;
+  }
+
+  .skills-icon {
+    grid-template-columns: repeat(5, auto);
+    row-gap: 20px;
+    column-gap: 5px;
+  }
+  .skill-icon-img {
+    width: 35px;
+    height: 35px;
+  }
+  .skill-name {
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    font-size: 11px;
+    justify-items: center;
+  }
+  .card-head-txt {
+    font-size: 20px;
+  }
+  .card-content {
+    font-size: 18px;
+  }
+  .art-card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
 
 /* Tablet */

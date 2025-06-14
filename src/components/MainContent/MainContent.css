@@ -80,14 +80,62 @@
   }
 }
 
-/* Laptop */
-@media (max-width: 1024px) {
-}
 /* Laptop- Large */
 @media (max-width: 1440px) {
 }
 /* 4K */
 @media (max-width: 2560px) {
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+  .main-content {
+    padding: 0px 30px;
+    height: 100vh;
+    grid-template-rows: 110px auto auto;
+  }
+  .portfolio-div p {
+    font-size: 6rem;
+  }
+  .circle-img {
+    width: 30vw;
+    height: 30vw;
+  }
+  .name .jothi-name {
+    font-size: 270%;
+    margin-bottom: 15px;
+  }
+  .name .des-txt {
+    font-size: 120%;
+    margin-bottom: 5px;
+  }
+  .name .quote-txt {
+    font-size: 80%;
+  }
+
+  .img-name-div {
+    justify-items: center;
+  }
+  .scroll-arrow {
+    column-gap: 5px;
+    margin-top: 0px;
+  }
+  .scroll-d-txt {
+    font-size: 12px;
+  }
+  .down-a-img {
+    width: 15px;
+    height: 15px;
+  }
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateY(-1px);
+    }
+    50% {
+      transform: translateY(2px);
+    }
+  }
 }
 
 /* Tablet */

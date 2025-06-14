@@ -10,6 +10,19 @@
   width: 17px;
 }
 
+/* Laptop */
+@media (max-width: 1024px) {
+  .copyright-div {
+    column-gap: 3px;
+  }
+  .copyright-div P {
+    font-size: 13px;
+  }
+  .cpr-img {
+    width: 13px;
+  }
+}
+
 /* Tablet */
 @media (max-width: 768px) {
   .copyright-div {

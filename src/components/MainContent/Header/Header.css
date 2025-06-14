@@ -28,6 +28,24 @@
   cursor: pointer;
 }
 
+/* Laptop */
+@media (max-width: 1024px) {
+  .header {
+    padding: 0% 5%;
+    margin-bottom: 0px;
+  }
+  .logo-img {
+    width: 60px;
+  }
+  .navi {
+    column-gap: 20px;
+  }
+  .navi p {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
 /* Tablet */
 @media (max-width: 768px) {
   .header {
