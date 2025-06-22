@@ -11,7 +11,13 @@ function MainContent() {
           <p>FOLIO.</p>
         </div>
         <div className="img-name-div">
-          <div className="circle-img"></div>
+          <div className="circle-img">
+            <img
+              src="images/jothi profile2.png"
+              alt="jothi profile"
+              className="jothi-profile-img"
+            />
+          </div>
           <div className="name">
             <p className="jothi-name">Jeya Jothi</p>
             <p className="des-txt">A Creative Web Developer</p>
