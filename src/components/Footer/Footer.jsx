@@ -19,7 +19,12 @@ function Footer() {
                 alt="email icon"
                 className="contact-icon"
               />
-              <p>jeyajothi108@gmail.com</p>
+              <a
+                href="mailto:jeyajothi108@gmail.com"
+                style={{ color: "#d10033" }}
+              >
+                jeyajothi108@gmail.com
+              </a>
             </div>
             <div>
               <img
@@ -27,7 +32,9 @@ function Footer() {
                 alt="phone icon"
                 className="contact-icon"
               />
-              <p>+91 8270907155</p>
+              <a href="tel:+918270907155" style={{ color: "#d10033" }}>
+                +91 8270907155
+              </a>
             </div>
             <div className="social-media-icon-div">
               <a
